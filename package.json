@@ -1,6 +1,6 @@
 {
-    "name": "anydoor",
-    "version": "0.1.0",
+    "name": "anydoor-wei",
+    "version": "0.1.2",
     "main": "src/app.js",
     "bin": {
         "anydoor": "src/anydoor"
@@ -8,5 +8,23 @@
     "dependencies": {
         "chalk": "^2.4.1",
         "yargs": "^11.0.0"
-    }
+    },
+    "description": "nodejs static web server",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AdamWei1992/anydoor.git"
+    },
+    "keywords": [
+        "anydoor-wei"
+    ],
+    "author": "wei_ye",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/AdamWei1992/anydoor/issues"
+    },
+    "homepage": "https://github.com/AdamWei1992/anydoor#readme"
 }
