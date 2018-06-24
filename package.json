@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "chalk": "^2.4.1"
-  }
+    "name": "anydoor",
+    "version": "0.1.0",
+    "main": "src/app.js",
+    "bin": {
+        "anydoor": "src/anydoor"
+    },
+    "dependencies": {
+        "chalk": "^2.4.1",
+        "yargs": "^11.0.0"
+    }
 }

@@ -3,7 +3,7 @@
  */
 const fs = require('fs');
 const path = require('path');
-const conf = require('../config/defaultConfig');
+
 //解决回调问题
 const promisify = require('util').promisify;
 const handlebars = require('handlebars');
@@ -21,7 +21,7 @@ const compress = require('./compress');
 const range = require('./range');
 const isFresh = require('./cache');
 
-module.exports = async function(req, res, filePath) {
+module.exports = async function(req, res, filePath, conf) {
 
     try {
         const stats = await stat(filePath);
